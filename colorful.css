@@ -72,6 +72,24 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+#idchange1{  /*padre*/
+  position: relative;
+  padding: 0;
+}
+#idchange1 .classchange1{  /*hijos*/
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+#idchange1 .classchange2{  /*hijos*/
+  position: absolute;
+  left: 600px;
+  top: 0;
+}
+
+
+
+
 hr {
   box-sizing: content-box;
   height: 0;
