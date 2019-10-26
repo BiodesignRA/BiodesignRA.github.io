@@ -56,7 +56,7 @@ $line-height-base: 1.5;
 $card-border-color: 	none;
 $card-bg:							$body-bg;
 
-$spacer: 1.5rem;
+
 
 $border-radius: 0px;
 $border-radius-lg: $border-radius * 1.2;
@@ -67,6 +67,7 @@ $input-bg: rgba(map-get($theme-colors, 'light'), 0.1);
 $input-border-color: transparent;
 
 $modal-transition:                  transform .3s ease-out !default;
+$spacer: 1.5rem;
 
 
 @import 'bootstrap-4.1.3';
@@ -132,3 +133,7 @@ background-attachment: fixed;
 }
 
 
+
+
+.disp {
+}
