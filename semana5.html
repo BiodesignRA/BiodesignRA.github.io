@@ -90,8 +90,8 @@
     <div class="container my-auto">
       <div class="row">
         <div class="col-md-12 p-3 text-white">
-          <h2 class="mb-4">Conceptos de solución</h2>
-          <p class="lead"><i>Habiendo escogido la estrategia ganadora, hemos desarrollado 3 conceptos de solución con sus respectivos bocetos.</i></p>
+          <h2 class="mb-4">Norma VDI 2225</h2>
+          <p class="lead"><i>VDI 2225 es una metodología alemana para el diseño de dispositivos en ingeniería. Usaremos esta herramienta para validar los conceptos de solución e idear una propuesta final adecuada.</i></p>
         </div>
       </div>
       <br><br><br><br><br><br>
@@ -109,37 +109,129 @@
       </div>
     </div>
   </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="text-center mx-auto col-md-8">
-          <h1 class="display-1">Conceptos de solución</h1>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="py-5" style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
     <div class="container">
       <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-6 border" style="">
-          <h1>Sistema de 4 pulsadores en la cabecera para controlar la silla de ruedas</h1>
-          <p class="mb-3">Consiste en un sistema de pulsadores que estará ubicado en la cabezal de la silla de ruedas, ya que el movimiento de esta se realizará por la acción de la cabeza. El usuario al presionar los botones, ejercitará los músculos del cuello. Nuestro sistema constará por 4 botones, donde cada uno significará una acción distinta, como encender/apagar, avanzar, retroceder y girar. El funcionamiento consistiría en que al presionar los pulsadores, el usuario manda una señal que se interpretará en qué tipo de acción realizará la silla de ruedas, está señal se enviará a los motores, que estarán ubicados en la ruedas delanteras como traseras, los cuales van a realizar el movimiento indicado. </p> <a data-toggle="modal" data-target=".C1" href="">Take me there</a>
-        </div>
-        <div class="p-5 bg-white ml-auto col-md-6 border">
-          <h1 class="p-0">Sistema de dos pulsadores en la cabecera y dos jaladores en los hombros</h1>
-          <p class="mb-3">Para esta idea, utilizaremos una silla de ruedas, la cual contará con dos pulsadores en el cabezal de la misma. Estos dos accionarán el Arduino, el cual a su vez activará los motores y corresponderá a los movimientos de adelante y atrás. Además, en la parte superior de ambos hombros, descansando en los mismos, se colocarán soportes elásticos que estarán conectados a sensores de estiramiento. Estos últimos colgarán en la parte trasera de la silla, y estarán conectados al Arduino que activará todo el mecanismo. Estos movimientos corresponderán a derecha e izquierda, dependiendo del hombro que acciones.</p> <a data-toggle="modal" data-target=".C3" href="">Take me there</a>
+        <div class="col-md-12 mb-4">
+          <h1 class="display-1 text-center">VDI 2225</h1>
         </div>
       </div>
       <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-6 border">
-          <h1>Sistema de dos pulsadores en cabecera y dos botones en hombro</h1>
-          <p class="mb-3">Consiste en adaptar a una silla de ruedas mecánica previamente acondicionada con espuma de EVA un motor que genere el movimiento necesario para avanzar; y con ayuda de un controlador general en la parte trasera del cráneo que permita el avance/retroceso, y dos controladores en la parte de los hombro que generen la acción de giro hacia los lados. Fortaleciendo así, los diversos músculos existentes en hombro y cuello.</p> <a data-toggle="modal" data-target=".C2" href="">Take me there</a>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bg-primary" style="">
+          <h3 class="display-3 text-center m-2">Estructura de funciones</h3>
         </div>
-        <div class="p-5 bg-white ml-auto col-md-6 border">
-          <h1 class="p-0">Acondicionamiento</h1>
-          <a data-toggle="modal" data-target=".AC" href="">Take me there</a>
-          <br><br><br><br>
-          <a data-toggle="modal" data-target=".WC" href="">Silla de ruedas</a>
+      </div>
+      <div class="row">
+        <div class="col-md-6 bg-light" style=""><img src="assets/semana5/funciones.png" width="100%" style="" class="pt-5"></div>
+        <div class="col-md-6 bg-light">
+          <div class="list-group my-3">
+            <a href="#" class="list-group-item list-group-item-action active"> DEFINICIÓN DE FUNCIONES</a>
+            <a href="#" class="list-group-item list-group-item-action">Proteger: Soportar el módulo principal del dispositivo (batería y motor)</a>
+            <a href="#" class="list-group-item list-group-item-action">Alimentar: Brindar energía al sistema</a>
+            <a href="#" class="list-group-item list-group-item-action">Transformar: Convertir la energía de alimentación en energía mecánica</a>
+            <a href="#" class="list-group-item list-group-item-action disabled">Regular: Integrar el controlador y la fuente de alimentación para dar energía al motor</a><a href="#" class="list-group-item list-group-item-action disabled">Accionar: Mandar la señal para realizar cierta acción</a><a href="#" class="list-group-item list-group-item-action disabled">Controlar: Procesar las señales de entrada y salida del sistema</a><a href="#" class="list-group-item list-group-item-action disabled">Transmitir: Transmitir el movimiento del eje del motor al eje de las ruedas</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bg-primary my-3">
+          <h3 class="display-3 text-center m-2">Matriz morfológica</h3>
+        </div>
+      </div>
+      <div class="row bg-primary">
+        <div class="col-md-3">
+          <h1 class="text-center">Función</h1>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-center" contenteditable="true">C. S. 1</h1>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-center">C. S. 2</h1>
+        </div>
+        <div class="col-md-3">
+          <h1 class="text-center">C. S. 3</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light">
+          <h1 class="text-center mt-5 pt-5">Transformar (tracción)</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/motordc.jpg">
+          <h1 class="text-center">Motor DC</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/motorreductor.jpg">
+          <h1 class="text-center">Motor reductor DC&nbsp;</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/motordosejes.jpg">
+          <h1 class="text-center" contenteditable="true">Motor DC de dos ejes</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light">
+          <h1 class="text-center mt-5 pt-4">Transformar (giro)</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/servo.jpg">
+          <h1 class="text-center">Servomotor micro</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/motorpaso.jpg">
+          <h1 class="text-center">Motor paso a paso</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/servomotor.jpg">
+          <h1 class="text-center">Servomotor</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light" style="">
+          <h1 class="text-center mt-5 pt-4">Alimentar</h1>
+        </div>
+        <div class="col-md-9 bg-dark" style=""><img class="img-fluid d-block mx-auto" src="assets/semana5/matriz_morfo/batería.jpg">
+          <h1 class="text-center">Batería de 12V</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light">
+          <h1 class="text-center mt-5 pt-5">Controlar</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/arduinouno.jpg">
+          <h1 class="text-center">Arduino&nbsp;<br>Uno</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/arduinomega.jpg">
+          <h1 class="text-center">Arduino<br>Mega 2560</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/raspberry.jpg">
+          <h1 class="text-center">Raspberry&nbsp;<br>Pi 3</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light" style="">
+          <h1 class="text-center mt-5 pt-4">Accionar</h1>
+        </div>
+        <div class="col-md-9 bg-dark" style=""><img class="img-fluid d-block mx-auto" src="assets/semana5/matriz_morfo/pulsador.jpg">
+          <h1 class="text-center">Pulsador grande</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light">
+          <h1 class="text-center mt-5 pt-5">Transmitir</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/fajas.jpg">
+          <h1 class="text-center">Fajas dentadas</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/engcónicos.jpg">
+          <h1 class="text-center">Engranajes cónicos</h1>
+        </div>
+        <div class="col-md-3 bg-dark"><img class="img-fluid d-block" src="assets/semana5/matriz_morfo/engrectos.jpg">
+          <h1 class="text-center">Engranajes rectos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 bg-light" style="">
+          <h1 class="text-center mt-5 pt-5">Proteger</h1>
+        </div>
+        <div class="col-md-9 bg-dark" style=""><img class="img-fluid d-block mx-auto" src="assets/semana5/matriz_morfo/mdf.jpg">
+          <h1 class="text-center">MDF</h1>
         </div>
       </div>
     </div>
@@ -192,6 +284,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <!-- Script: Smooth scrolling between anchors in the same page -->
   <script src="js/smooth-scroll.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
