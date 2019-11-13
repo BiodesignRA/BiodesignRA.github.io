@@ -45,7 +45,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" style="  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));  background-position: top left;  background-size: 100%;  background-repeat: repeat;">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); background-position: left top; background-size: 100%; background-repeat: repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-12 mr-1"><img class="img-fluid d-block" src="assets/logo/logo4.1.png"></div>
@@ -68,7 +68,7 @@
     <div class="container my-auto">
       <div class="row">
         <div class="mx-auto col-lg-6 col-md-8">
-          <h1 class="display-1 mb-0 mt-5 big-title javier">Vertebral&nbsp;</h1>
+          <h1 class="display-1 mb-0 mt-5 big-title javier">Vertebral</h1>
           <h3 class="mt-2 mb-2"><b>BIODISEÑO</b></h3><i class="fa fa-cog fa-spin fa-fw fa-3x mb-2"></i>
           <p>PUCP - UPCH</p>
         </div>
@@ -90,7 +90,8 @@
     <div class="container my-auto">
       <div class="row">
         <div class="col-md-12 p-3 text-white">
-          <h2 class="mb-4">VDI 2225</h2>
+          <h2 class="mb-4">Propuesta de solución</h2>
+          <p class="lead"><i>En este entregable presentaremos la propuesta de solución final resultante del entregable anterior. El concepto ganador de la tabla de valoración fue el concepto 2.</i></p>
         </div>
       </div>
       <br><br><br><br><br><br>
@@ -108,22 +109,35 @@
       </div>
     </div>
   </div>
-  <div class="py-5 text-white" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(https://static.pingendo.com/cover-bubble-dark.svg);  background-position: center center, center center;  background-size: cover, cover;  background-repeat: repeat, repeat;">
+  <div class="py-5 text-center" style="background-image: url('https://static.pingendo.com/cover-bubble-dark.svg');background-size:cover;">
     <div class="container">
       <div class="row">
-        <div class="p-5 col-lg-12 d-flex flex-column justify-content-center">
-          <h3 class="display-4 mb-3" contenteditable="true">Tabla de valoración</h3>
-          <p class="lead mb-0">Concepto ganador: Concepto 2</p>
+        <div class="bg-white p-5 mx-auto col-md-8 col-10">
+          <h3 class="display-3">Descripción de la propuesta</h3>
+          <p class="mb-3 lead">Sistema para empuje de silla de ruedas controlado por botones accionados con la cabeza</p>
+          <ul class="nav nav-pills ml-5">
+            <li class="nav-item"> <a href="" class="btn btn-outline-primary nav-link" data-toggle="pill" data-target="#tabone">Descripción</a> </li>
+            <li class="nav-item"> <a href="" class="btn btn-outline-primary nav-link" data-toggle="pill" data-target="#tabtwo">Sistema de botones</a> </li>
+            <li class="nav-item"> <a class="btn btn-outline-primary nav-link" data-toggle="pill" data-target="#tabthree" href="">Módulo de empuje</a> </li>
+          </ul>
+          <div class="tab-content mt-2">
+            <div class="tab-pane fade show active" id="tabone" role="tabpanel">
+              <p class="">Nuestra propuesta se puede dividir finalmente en dos módulos principales: El sistema de botones y el módulo de empuje.</p>
+            </div>
+            <div class="tab-pane fade" id="tabtwo" role="tabpanel">
+              <p class="" contenteditable="true">Cuatro botones irán ubicados un cabezal que estará sujetado en la parte superior de la silla de ruedas. En este cabezal irá ubicado el controlador (Arduino Mega 2560), el protoboard y el driver. Del driver saldrán las conexiones al módulo de empuje que controlarán el motor.</p>
+              <div class="row">
+                <div class="col-md-12"><img class="img-fluid d-block" src="assets/semana6/cabezal.jpg" width="100%"></div>
+              </div>
+              <div class="row">
+                <div class="col-md-12"><img class="img-fluid d-block mt-3" src="assets/semana6/cabezal2.jpg" width="100%"></div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabthree" role="tabpanel">
+              <p class="">Este será un módulo compuesto por el motorreductor de 180W, cuyo eje irá perpendicular al eje de la ruedas. El motor y su respectiva batería irán en una caja la cual irá sujetada por unas varillas que salen del eje de las ruedas. Finalmente, estas varillas irán unidas a la parte inferior de la silla. Este módulo será el encargado de que la silla avance y retroceda. Irá conectado al sistema de botones por medio de los cables del motor al driver, para ser controlado por el arduino.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="assets/semana6/tabla1.jpeg" class="m-2"><img src="assets/semana6/tabla2.jpeg" class="m-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="assets/semana6/tabla3.jpeg" class="m-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="assets/semana6/leyenda.jpeg" class="m-2"></div>
       </div>
     </div>
   </div>
@@ -131,8 +145,14 @@
     <div class="container">
       <div class="row">
         <div class="text-center mx-auto col-md-8">
-          <h1 class="display-1">VDI 2225</h1>
+          <h1 class="display-1 mb-5">Modelo 3d de la propuesta</h1>
         </div>
+      </div>
+      <div class="sketchfab-embed-wrapper">
+        <iframe title="A 3D model" width="100%" height="480" src="https://sketchfab.com/models/2b36401e35a64303ad8cd8ec7e9d5293/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+          <a href="https://sketchfab.com/3d-models/ensamble-final-2b36401e35a64303ad8cd8ec7e9d5293?utm_medium=embed&amp;utm_source=website&amp;utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Ensamble final</a> by <a href="https://sketchfab.com/Rodrigo64?utm_medium=embed&amp;utm_source=website&amp;utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Rodrigo Alarcón</a> on <a href="https://sketchfab.com?utm_medium=embed&amp;utm_source=website&amp;utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+        </p>
       </div>
     </div>
   </div>
@@ -140,48 +160,6 @@
   </div>
   <div class="py-5" style="background-image: url(&quot;https://static.pingendo.com/cover-stripes.svg&quot;); background-position: right bottom; background-size: cover;">
     <div class="container">
-      <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-12 border">
-          <h1 class="p-0">Tabla de requerimientos</h1><img src="assets/semana6/tablarequerimientos.png" width="100%">
-          <br><br><br><br>
-        </div>
-      </div>
-      <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-12 border">
-          <h1 class="p-0">Entradas y salidas</h1><img src="assets/semana6/stdio.png" width="100%">
-          <br><br><br><br>
-        </div>
-      </div>
-      <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-12 border">
-          <h1 class="p-0">Acondicionamiento</h1><img src="assets/semana6/funciones.png" style="" width="100%">
-          <br><br><br><br>
-        </div>
-      </div>
-      <div class="row">
-        <div class="p-5 bg-white ml-auto col-md-12 border">
-          <h1 class="p-0">Matriz morfológica</h1><img src="assets/semana6/matriz.jpeg" width="100%">
-          <br><br><br><br>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5 text-center text-white" style="position: relative; overflow: hidden;"> <video autoplay="" loop="" muted="" plays-inline="" style="position: absolute; right: 0; top: 0; min-width:100%; z-index: -100;">
-      <source src="https://static.pingendo.com/video-placeholder.mp4" type="video/mp4"> </video>
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-8 col-md-12 mx-auto">
-          <h1 class="mb-4 display-3">Modelado 3d</h1>
-        </div>
-        <h2>Para visualizar el modelado 3d <a href="bocetos.pdf" download="modelado3d.pdf">haga click aquí.&gt;&gt;</a></h2>
-        <img src="assets/semana6/pieza1.jpeg" class="mx-auto">
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="assets/semana6/pieza2.jpeg" width="80%" class="m-3"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-12"><img src="assets/semana6/pieza3.jpeg"></div>
-      </div>
     </div>
   </div>
   <div class="text-white bg-dark" id="where" style="  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.8)); background-position: top left;  background-size: 100%;  background-repeat: repeat;">
